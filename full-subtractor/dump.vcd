@@ -1,0 +1,104 @@
+$date
+	Fri May 05 21:11:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$scope module a1 $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # borrowIn $end
+$var wire 1 $ borrowOut $end
+$var wire 1 % difference $end
+$var wire 1 & w0 $end
+$var wire 1 ' w1 $end
+$var wire 1 ( w2 $end
+$var wire 1 ) w3 $end
+$var wire 1 * w4 $end
+$var wire 1 + w5 $end
+$var wire 1 , w6 $end
+$var wire 1 - w7 $end
+$var wire 1 . w8 $end
+$var wire 1 / w9 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+1(
+1'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1$
+1%
+0(
+1)
+1,
+1#
+#2
+1-
+1%
+1(
+0)
+0,
+0'
+1*
+0#
+1"
+#3
+0-
+0(
+1)
+1+
+1#
+#4
+1.
+0$
+1%
+1(
+0)
+1'
+0*
+0+
+0&
+0#
+0"
+1!
+#5
+0%
+0.
+0(
+1#
+#6
+1(
+0'
+0#
+1"
+#7
+1$
+1%
+0(
+1+
+1/
+1#
+#8
