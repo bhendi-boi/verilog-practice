@@ -1,0 +1,66 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002041f3e6700 .scope module, "test" "test" 2 1;
+ .timescale 0 0;
+v000002041f433d90_0 .var "a", 0 0;
+v000002041f433e30_0 .var "b", 0 0;
+v000002041f433ed0_0 .net "borrow", 0 0, L_000002041f3e6ef0;  1 drivers
+v000002041f434780_0 .net "difference", 0 0, L_000002041f3ed3f0;  1 drivers
+S_000002041f3e6890 .scope module, "a1" "halfSubtractor" 2 6, 3 1 0, S_000002041f3e6700;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "difference";
+    .port_info 1 /OUTPUT 1 "borrow";
+    .port_info 2 /INPUT 1 "a";
+    .port_info 3 /INPUT 1 "b";
+L_000002041f3ed3f0 .functor XOR 1, v000002041f433d90_0, v000002041f433e30_0, C4<0>, C4<0>;
+L_000002041f3e6d90 .functor NOR 1, v000002041f433e30_0, C4<0>, C4<0>, C4<0>;
+L_000002041f3e6ef0 .functor AND 1, v000002041f433d90_0, L_000002041f3e6d90, C4<1>, C4<1>;
+v000002041f3e7170_0 .net "a", 0 0, v000002041f433d90_0;  1 drivers
+v000002041f3ebf00_0 .net "b", 0 0, v000002041f433e30_0;  1 drivers
+v000002041f3e6a20_0 .net "borrow", 0 0, L_000002041f3e6ef0;  alias, 1 drivers
+v000002041f3e6ac0_0 .net "difference", 0 0, L_000002041f3ed3f0;  alias, 1 drivers
+v000002041f433cf0_0 .net "w0", 0 0, L_000002041f3e6d90;  1 drivers
+    .scope S_000002041f3e6700;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002041f433d90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002041f433e30_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002041f433d90_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002041f433e30_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002041f433d90_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002041f433e30_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002041f433d90_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002041f433e30_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 12 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_000002041f3e6700;
+T_1 ;
+    %vpi_call 2 15 "$dumpfile", "dump.vcd" {0 0 0};
+    %vpi_call 2 16 "$dumpvars", 32'sb00000000000000000000000000000000, S_000002041f3e6890 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "halfSubtractorTb.v";
+    "halfSubtractor.v";

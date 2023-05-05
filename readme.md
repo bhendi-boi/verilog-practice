@@ -2,7 +2,8 @@
 
 add about folder structure
 
-| Date       | Circuit name |
-| ---------- | ------------ |
-| 05/05/2023 | Half adder   |
-| 05/05/2023 | Full adder   |
+| Date       | Circuit name    |
+| ---------- | --------------- |
+| 05/05/2023 | Half adder      |
+| 05/05/2023 | Full adder      |
+| 05/05/2023 | Half Subtractor |
