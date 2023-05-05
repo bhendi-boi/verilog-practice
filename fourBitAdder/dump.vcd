@@ -1,0 +1,142 @@
+$date
+	Fri May 05 21:46:18 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$scope module a1 $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 1 # carryIn $end
+$var wire 1 $ w2 $end
+$var wire 1 % w1 $end
+$var wire 1 & w0 $end
+$var wire 4 ' sum [3:0] $end
+$var wire 1 ( carryOut $end
+$scope module f0 $end
+$var wire 1 ) a $end
+$var wire 1 * b $end
+$var wire 1 # carryIn $end
+$var wire 1 & carryOut $end
+$var wire 1 + sum $end
+$var wire 1 , w0 $end
+$var wire 1 - w1 $end
+$var wire 1 . w2 $end
+$var wire 1 / w3 $end
+$upscope $end
+$scope module f1 $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 & carryIn $end
+$var wire 1 % carryOut $end
+$var wire 1 2 sum $end
+$var wire 1 3 w0 $end
+$var wire 1 4 w1 $end
+$var wire 1 5 w2 $end
+$var wire 1 6 w3 $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 % carryIn $end
+$var wire 1 $ carryOut $end
+$var wire 1 9 sum $end
+$var wire 1 : w0 $end
+$var wire 1 ; w1 $end
+$var wire 1 < w2 $end
+$var wire 1 = w3 $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 > a $end
+$var wire 1 ? b $end
+$var wire 1 $ carryIn $end
+$var wire 1 ( carryOut $end
+$var wire 1 @ sum $end
+$var wire 1 A w0 $end
+$var wire 1 B w1 $end
+$var wire 1 C w2 $end
+$var wire 1 D w3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+b0 "
+b0 !
+$end
+#1
+b100 '
+19
+1%
+1(
+14
+1B
+11
+1?
+10
+1>
+b1010 "
+b1010 !
+#2
+12
+15
+16
+b1110 '
+1@
+1C
+1D
+1&
+1$
+1<
+1-
+1;
+1=
+1*
+18
+1)
+17
+b1111 "
+b1111 !
+#3

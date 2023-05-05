@@ -8,3 +8,4 @@ add about folder structure
 | 05/05/2023 | Full adder      |
 | 05/05/2023 | Half Subtractor |
 | 05/05/2023 | Full Subtractor |
+| 05/05/2023 | Four Bit Adder  |
