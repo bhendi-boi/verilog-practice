@@ -19,3 +19,4 @@
 | 05/05/2023 | Full Subtractor |
 | 06/05/2023 | Four Bit Adder  |
 | 06/05/2023 | Two X one Mux   |
+| 06/05/2023 | Four X one Mux  |
