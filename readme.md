@@ -22,3 +22,4 @@
 | 06/05/2023 | Four X one Mux     |
 | 06/05/2023 | Eight X one Mux    |
 | 06/05/2023 | Two Bit Multiplier |
+| 06/05/2023 | Two X four Decoder |
