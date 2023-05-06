@@ -13,7 +13,7 @@
 
 | Date       | Circuit name    |
 | ---------- | --------------- |
-| 05/05/2023 | Half adder      |
+| 06/05/2023 | Half adder      |
 | 05/05/2023 | Full adder      |
 | 05/05/2023 | Half Subtractor |
 | 05/05/2023 | Full Subtractor |
