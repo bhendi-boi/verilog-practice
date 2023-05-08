@@ -1,0 +1,42 @@
+$date
+	Mon May 08 21:20:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module test $end
+$scope module a1 $end
+$var wire 1 ! clock $end
+$var wire 1 " d $end
+$var reg 1 # q $end
+$var reg 1 $ qnot $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1$
+0#
+0"
+0!
+$end
+#2
+1!
+#4
+0!
+#5
+1"
+#6
+1!
+#8
+0$
+1#
+0!
+#10
+1!
