@@ -5,14 +5,14 @@ module test (
     wire q;
     tFlipFlop a1(q,t,clock);
     initial begin
-        clock=0;
+        clock=1;
         forever #2 clock = ~clock;  
     end
     initial begin
-        t=0;#5
-        t=1;#5
-        t=0;#5
-        t=1;#5
+        t = 1;
+    end
+    initial begin
+        #200
         $finish;
     end
     initial begin

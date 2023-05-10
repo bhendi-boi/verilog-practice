@@ -31,4 +31,4 @@
 | 06/05/2023 | Two Bit Multiplier |
 | 06/05/2023 | Two X four Decoder |
 | 08/05/2023 | D Flip Flop        |
-| 09/05/2023 | T Flip Flop        |
+| 10/05/2023 | T Flip Flop        |
