@@ -12,3 +12,15 @@
 - x represents the condition of _ambiguity_ in which the simulator _cannot determine_ whether the value of a signal is 0 or 1.
 - This usually happens when a wire is driven by two primitives having opposite output values.
 - z denotes a _3 state_ condition in which a wire is _disconnected_ from its driver.
+
+## Block statement Keyword pair (begin ... end)
+
+- **begin** . . . **end** keyword pair is used to create a new block in verilog.
+- They work similar to `{ }` in C programming language.
+- Example
+
+```verilog
+    initial begin
+        a1 = 0;
+    end
+```
