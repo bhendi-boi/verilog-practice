@@ -32,3 +32,4 @@
 | 06/05/2023 | Two X four Decoder |
 | 08/05/2023 | D Flip Flop        |
 | 10/05/2023 | T Flip Flop        |
+| 15/05/2023 | Four Bit ALU       |
