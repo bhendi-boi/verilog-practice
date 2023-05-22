@@ -2,7 +2,7 @@
 
 ## 4️⃣ value logic
 
-- Verilog uses _four_ value logic based sysytem which include 1, 0, x, z.
+- Verilog uses _four_ value logic based system which include 1, 0, x, z.
 - | Symbol | Corresponding value |
   | :----: | :-----------------: |
   |   1    |        True         |
