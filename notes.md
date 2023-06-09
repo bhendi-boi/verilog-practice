@@ -24,3 +24,15 @@
         a1 = 0;
     end
 ```
+
+## Conditional Operator
+
+- `?, :` operator is called conditional operator.
+- Works the same as a ternary operator in c and js.
+- Example
+
+```verilog
+  assign v = expression ? value1 : value2
+```
+
+- Here if expression evaluates to true v is assigned with value1 else value2.
