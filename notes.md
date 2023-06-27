@@ -36,3 +36,18 @@
 ```
 
 - Here if expression evaluates to true v is assigned with value1 else value2.
+
+## Case statement
+
+- `case` keyword is used to create a case statement.
+- Works the same as switch in c and js
+- It searches from top to bottom to find a match between the case expression and case item, expressed as a value in Verilog's four-value logic system.
+- It executes the first match and ignores the remaining possibilities.
+- Here in this example we can see how to represent a 2 X 1 MUX using case statements.
+
+```verilog
+  case(select)
+  0:  data0;
+  1:  data1;
+  default:  1'bx;
+```
