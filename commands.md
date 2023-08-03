@@ -19,3 +19,11 @@
 ```
 
 - You must replace `dump.vcd` with the dumpfile name you specified in test bench
+
+## Running System Verilog files
+
+- Add `-g` flag with 2012 as the argument
+
+```powershell
+    iverilog -g 2012 -o design design.sv testBench.sv
+```
