@@ -1,4 +1,4 @@
-# Verilog TIPS
+# Verilog Notes
 
 ## 4️⃣ value logic
 
@@ -50,4 +50,28 @@
   0:  data0;
   1:  data1;
   default:  1'bx;
+```
+
+## For loop
+
+- Same as c
+
+```verilog
+for(initialState;controlStatement;increment/decrement) begin
+  ---
+  ---
+  ---
+end
+
+```
+## Repeat statement
+- Used to run a block of code a specific no of times
+- Can be prematurely terminated using `disable` statement
+
+```verilog
+repeat (8) begin
+  ---
+  ---
+  ---
+end
 ```
